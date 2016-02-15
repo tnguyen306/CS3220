@@ -15,7 +15,7 @@ module Project(
   // The reset signal comes from the reset button on the DE0-CV board
   // RESET_N is active-low, so we flip its value ("reset" is active-high)
   wire clk,locked;
-  // testing git hubbbbbbbbbbbbb, lol
+  
   
   // this is when the clock is in SET mode, the display blinks
   reg blinkMode;
